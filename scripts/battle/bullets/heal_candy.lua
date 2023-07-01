@@ -3,7 +3,7 @@ local HealCandy, super = Class(HealBullet)
 function HealCandy:init(x, y, dir, speed)
     -- Last argument = sprite path
     --local color = Utils.pick({ "green" })
-    super.init(self, x, y, "green", "bullets/smallbullet")
+    super.init(self, x, y, "green", "bullets/swatchling_platter_candy")
     -- Bullet color
     self.type = "green"
     -- Move the bullet in dir radians (0 = right, pi = left, clockwise rotation)
